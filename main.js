@@ -66,3 +66,7 @@ else
     {phone.style.transform="rotate(360deg)"
     phone.style.height="300px"}
 }
+
+                $(window).on('load', function() {
+                    $('#loading').hide();});
+                
