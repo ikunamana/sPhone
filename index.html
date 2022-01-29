@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="loading">
-        <img id="loading-image" src="./images/loader.gif" alt="loading...">
+        <img id="loading-image" src="./images/loading.gif" alt="loading...">
     </div>
     <div id="maindiv" class="maindiv">
         <div>
@@ -101,5 +101,10 @@
         <div class="companyname">
             <strong>sPhone</strong><br> <p>ALL RIGHTS RESERVED</p><br><p>2021-2022</p>
         </div>
+                <script>
+                       $(window).on('load', function() {
+                    $('#loading').hide();});
+
+                </script>
 </body>
 </html>
