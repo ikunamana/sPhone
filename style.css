@@ -250,9 +250,9 @@ a:hover{
 }
 #loading-image{
     position: absolute;
-    width: 100px;
+    width: 700px;
     opacity: 1;
-    height: 100px;
+    height: 400px;
     z-index: 100;
 
 }
