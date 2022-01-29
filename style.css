@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    font:status-bar;
+
+}
+#logoimg{
+    transition-duration: 700ms;
+}
+#maindiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: -webkit-fill-available;
+    backdrop-filter: blur(4px);
+    z-index: 999;
+    box-shadow: none;
+    transition-duration: 500ms;
+    animation-duration: 2s;
+}
+@keyframes header{
+    from{height: 50px;}
+    to{height: 0px;}
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.menu2{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+a{
+    text-decoration:none;
+    color: black;
+    font-size: 18px;
+    font: status-bar;
+    font-weight: 600;
+    transition-duration: 400ms;
+}
+a:hover{
+    text-decoration-line: overline;
+    font-size: 15px;
+    transition-duration: 400ms;
+    text-decoration-style:inherit;
+}
+.mann{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 140px;
+
+}
+#back {
+    padding-left: 150px;
+    transition-duration: 2s;
+    position: absolute;
+}
+#front{
+    z-index: 1;
+    position: inherit;
+    transition-duration: 2s;
+    padding-right: 350px;   
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ @keyframes anim{
+    from{ padding-left: 0px;}
+    to{padding-left:150px ;}
+}
+@keyframes animfront{
+    from{padding-right: 0px;}
+    to{padding-right:350px ;}
+}
+@keyframes anim1{
+    0%{ padding-left: 0px;}
+    50%{ padding-left: 75px;}
+    100%{padding-left:150px ;}
+}
+@keyframes animfront1{
+    from{padding-right: 0px;}
+    to{padding-right:350px ;}
+}
+@keyframes anim3{
+    from{ padding-left: 150px;}
+    to{padding-left:0px ;}
+}
+@keyframes animfront3{
+    from{padding-right: 350px;}
+    to{padding-right:0px ;}
+}
+.bannertext{
+    font: status-bar;
+    width: 300px;
+    text-align: justify;
+    height: auto;
+}
+.camera{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.mann1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.campics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#cam1{
+    margin-left: 100px;
+    transition-duration: 2s;
+    position: absolute;
+    padding-top:70px;
+    
+}
+#cam2{
+    z-index: 1;
+    position: inherit;
+    transition-duration: 2s;
+    padding-right: 350px;
+}
+.div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+.screen1{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    transition-duration: 1500ms;
+}
+.phones{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    
+}
+.allph{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gold1{
+    background-color: goldenrod;
+    display: flex;
+    visibility: visible;
+}
+.silver1{
+    background-color: silver;
+    display: flex;
+    visibility: visible;
+}
+.blue1{
+    background-color: skyblue;
+    display: flex;
+    visibility: visible;
+}
+.black1{
+    background-color: gray;
+    display: flex;
+    visibility: visible;
+}
+#blue{
+    padding-bottom: 30px;
+}
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.aboutus{
+    width: 300px;
+    height: 270px;
+    text-align: justify;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.footerleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    width: 300px;
+}
+.sociallogo{
+    padding-top: 30px;
+}
+.filter{
+    filter: blur(5px);
+    z-index: -1;
+}
+.footerright{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 270px;
+    width: 300px;
+    text-align: left;
+}
+.footercontainer{
+    background-color: #aec5dd;
+}
+.companyname{
+    width: fit-content;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
